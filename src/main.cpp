@@ -105,10 +105,6 @@ void callback(char *topic, byte *payload, unsigned int length)
       Serial.println("Đèn: TẮT");
     }
   }
-  if (String(topic) == "home/sensor")
-  {
-    nhannhietdo();
-  }
 
 }
 void setup()
